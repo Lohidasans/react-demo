@@ -1,10 +1,10 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Home from "./Content/Home";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Welcome React App</h1>
         <a
@@ -15,7 +15,8 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
+      <Home />
     </div>
   );
 }
