@@ -2,6 +2,7 @@ import React from "react";
 import "../App.css";
 import dev from "../Assets/Dev1.png";
 import dev1 from "../Assets/Dev2.png";
+import dev2 from "../Assets/Dev3.png";
 const Home = () => {
   return (
     <div>
@@ -11,7 +12,7 @@ const Home = () => {
         for the need to automate and secure the whole software development
         lifecycle.
       </p>
-      <img src={dev} alt="img" />
+      <img src={dev} alt="img" width={600} height={300} />
       <p>
         Continuous integration (CI) and continuous delivery/deployment (CD) are
         DevOps processes that help to automate the software release process in a
@@ -19,7 +20,7 @@ const Home = () => {
         money for an organization.
       </p>
       <h1>Phases in a CI/CD pipeline</h1>
-      <img src={dev1} alt="" />
+      <img src={dev1} alt="" width={600} height={300} />
       <ul>
         <li>
           <b>The build stage: </b>
@@ -48,6 +49,8 @@ const Home = () => {
           monitored using a dedicated interface.
         </li>
       </ul>
+
+      <img src={dev2} alt="" width={600} height={300} />
     </div>
   );
 };
